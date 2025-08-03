@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "Password@123",
+      "availableCredit": 880000
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "dueDate": "2023-08-23T03:23:34Z",
+      "status": "Upcoming",
+      "expectedAmount": 14204.55,
+      "outstandingAmount": 156250.05
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "dueDate": "2023-09-24T04:30:20Z",
+      "status": "Upcoming",
+      "expectedAmount": 14204.55,
+      "outstandingAmount": 142045.5
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "dueDate": "2023-10-25T05:43:60Z",
+      "status": "Upcoming",
+      "expectedAmount": 14204.55,
+      "outstandingAmount": 127840.95
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "dueDate": "2023-11-22T09:31:02Z",
+      "status": "Upcoming",
+      "expectedAmount": 14204.55,
+      "outstandingAmount": 99431.85
+    }
+  ],
+  "contracts": [
+    {
+      "id": 1,
+      "name": "Contract 1",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 12000.25,
+      "totalFinanced": "-",
+      "totalAvailable": 126722.64,
+      "termLength": 12,
+      "termRate": 12,
+      "paymentAmount": 63360
+    },
+    {
+      "id": 2,
+      "name": "Contract 2",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "totalFinanced": "-",
+      "totalAvailable": 63360,
+      "termLength": 12,
+      "termRate": 12,
+      "paymentAmount": 63360
+    },
+    {
+      "id": 3,
+      "name": "Contract 3",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "totalFinanced": "-",
+      "totalAvailable": 63360,
+      "termLength": 12,
+      "termRate": 12,
+      "paymentAmount": 63360
+    },
+    {
+      "id": 4,
+      "name": "Contract 4",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "totalFinanced": "-",
+      "totalAvailable": 63360,
+      "termLength": 12,
+      "termRate": 12,
+      "paymentAmount": 63360
+    },
+    {
+      "id": 5,
+      "name": "Contract 5",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "totalFinanced": "-",
+      "totalAvailable": 63360,
+      "termLength": 12,
+      "termRate": 12,
+      "paymentAmount": 63360
+    },
+    {
+      "id": 6,
+      "name": "Contract 6",
+      "status": "Available",
+      "type": "Monthly",
+      "perPayment": 6000,
+      "totalFinanced": "-",
+      "totalAvailable": 63360,
+      "termLength": 12,
+      "termRate": 12,
+      "paymentAmount": 21120
+    }
+  ],
+  "cashkicks": [
+    {
+      "name": "My First Advance",
+      "status": "Pending",
+      "maturity": "2023-11-21T12:02:33Z",
+      "totalFinanced": 199128.2384,
+      "totalReceived": 177793.07,
+      "termRate": 12,
+      "id": 1,
+      "userId": 1
+    }
+  ],
+  "cashkickContracts": [
+    {
+      "cashkickId": 1,
+      "contractId": 1,
+      "id": 1
+    },
+    {
+      "cashkickId": 1,
+      "contractId": 2,
+      "id": 2
+    },
+    {
+      "cashkickId": 1,
+      "contractId": 3,
+      "id": 3
+    }
+  ]
+}
