@@ -1,0 +1,1 @@
+Seeder is a platform aiding small to mid-sized businesses and startups secure growth capital. Using business contracts akin to crowdfunding, CFOs and CEOs connect with investors. The platform ensures a swift application process, streamlined transactions, and adaptable repayment options, empowering ambitious businesses to thrive with vital financial support.
